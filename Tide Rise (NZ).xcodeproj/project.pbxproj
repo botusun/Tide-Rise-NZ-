@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95302D9A1C9FBB7C002B1C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302D991C9FBB7C002B1C27 /* AppDelegate.swift */; };
+		95302D9C1C9FBB7C002B1C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302D9B1C9FBB7C002B1C27 /* ViewController.swift */; };
+		95302D9F1C9FBB7C002B1C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95302D9D1C9FBB7C002B1C27 /* Main.storyboard */; };
+		95302DA11C9FBB7C002B1C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95302DA01C9FBB7C002B1C27 /* Assets.xcassets */; };
+		95302DA41C9FBB7C002B1C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95302DA21C9FBB7C002B1C27 /* LaunchScreen.storyboard */; };
+		95302DAF1C9FBB7C002B1C27 /* Tide_Rise__NZ_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302DAE1C9FBB7C002B1C27 /* Tide_Rise__NZ_Tests.swift */; };
+		95302DBA1C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302DB91C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95302DAB1C9FBB7C002B1C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95302D8E1C9FBB7B002B1C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95302D951C9FBB7B002B1C27;
+			remoteInfo = "Tide Rise (NZ)";
+		};
+		95302DB61C9FBB7C002B1C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95302D8E1C9FBB7B002B1C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95302D951C9FBB7B002B1C27;
+			remoteInfo = "Tide Rise (NZ)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95302D961C9FBB7B002B1C27 /* Tide Rise (NZ).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tide Rise (NZ).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95302D991C9FBB7C002B1C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95302D9B1C9FBB7C002B1C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95302D9E1C9FBB7C002B1C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95302DA01C9FBB7C002B1C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95302DA31C9FBB7C002B1C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95302DA51C9FBB7C002B1C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95302DAA1C9FBB7C002B1C27 /* Tide Rise (NZ)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tide Rise (NZ)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95302DAE1C9FBB7C002B1C27 /* Tide_Rise__NZ_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tide_Rise__NZ_Tests.swift; sourceTree = "<group>"; };
+		95302DB01C9FBB7C002B1C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95302DB51C9FBB7C002B1C27 /* Tide Rise (NZ)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tide Rise (NZ)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95302DB91C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tide_Rise__NZ_UITests.swift; sourceTree = "<group>"; };
+		95302DBB1C9FBB7C002B1C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95302D931C9FBB7B002B1C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95302DA71C9FBB7C002B1C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95302DB21C9FBB7C002B1C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95302D8D1C9FBB7B002B1C27 = {
+			isa = PBXGroup;
+			children = (
+				95302D981C9FBB7C002B1C27 /* Tide Rise (NZ) */,
+				95302DAD1C9FBB7C002B1C27 /* Tide Rise (NZ)Tests */,
+				95302DB81C9FBB7C002B1C27 /* Tide Rise (NZ)UITests */,
+				95302D971C9FBB7B002B1C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95302D971C9FBB7B002B1C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95302D961C9FBB7B002B1C27 /* Tide Rise (NZ).app */,
+				95302DAA1C9FBB7C002B1C27 /* Tide Rise (NZ)Tests.xctest */,
+				95302DB51C9FBB7C002B1C27 /* Tide Rise (NZ)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95302D981C9FBB7C002B1C27 /* Tide Rise (NZ) */ = {
+			isa = PBXGroup;
+			children = (
+				95302D991C9FBB7C002B1C27 /* AppDelegate.swift */,
+				95302D9B1C9FBB7C002B1C27 /* ViewController.swift */,
+				95302D9D1C9FBB7C002B1C27 /* Main.storyboard */,
+				95302DA01C9FBB7C002B1C27 /* Assets.xcassets */,
+				95302DA21C9FBB7C002B1C27 /* LaunchScreen.storyboard */,
+				95302DA51C9FBB7C002B1C27 /* Info.plist */,
+			);
+			path = "Tide Rise (NZ)";
+			sourceTree = "<group>";
+		};
+		95302DAD1C9FBB7C002B1C27 /* Tide Rise (NZ)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				95302DAE1C9FBB7C002B1C27 /* Tide_Rise__NZ_Tests.swift */,
+				95302DB01C9FBB7C002B1C27 /* Info.plist */,
+			);
+			path = "Tide Rise (NZ)Tests";
+			sourceTree = "<group>";
+		};
+		95302DB81C9FBB7C002B1C27 /* Tide Rise (NZ)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				95302DB91C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift */,
+				95302DBB1C9FBB7C002B1C27 /* Info.plist */,
+			);
+			path = "Tide Rise (NZ)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95302D951C9FBB7B002B1C27 /* Tide Rise (NZ) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95302DBE1C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)" */;
+			buildPhases = (
+				95302D921C9FBB7B002B1C27 /* Sources */,
+				95302D931C9FBB7B002B1C27 /* Frameworks */,
+				95302D941C9FBB7B002B1C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tide Rise (NZ)";
+			productName = "Tide Rise (NZ)";
+			productReference = 95302D961C9FBB7B002B1C27 /* Tide Rise (NZ).app */;
+			productType = "com.apple.product-type.application";
+		};
+		95302DA91C9FBB7C002B1C27 /* Tide Rise (NZ)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95302DC11C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)Tests" */;
+			buildPhases = (
+				95302DA61C9FBB7C002B1C27 /* Sources */,
+				95302DA71C9FBB7C002B1C27 /* Frameworks */,
+				95302DA81C9FBB7C002B1C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95302DAC1C9FBB7C002B1C27 /* PBXTargetDependency */,
+			);
+			name = "Tide Rise (NZ)Tests";
+			productName = "Tide Rise (NZ)Tests";
+			productReference = 95302DAA1C9FBB7C002B1C27 /* Tide Rise (NZ)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95302DB41C9FBB7C002B1C27 /* Tide Rise (NZ)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95302DC41C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)UITests" */;
+			buildPhases = (
+				95302DB11C9FBB7C002B1C27 /* Sources */,
+				95302DB21C9FBB7C002B1C27 /* Frameworks */,
+				95302DB31C9FBB7C002B1C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95302DB71C9FBB7C002B1C27 /* PBXTargetDependency */,
+			);
+			name = "Tide Rise (NZ)UITests";
+			productName = "Tide Rise (NZ)UITests";
+			productReference = 95302DB51C9FBB7C002B1C27 /* Tide Rise (NZ)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95302D8E1C9FBB7B002B1C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Botu Sun";
+				TargetAttributes = {
+					95302D951C9FBB7B002B1C27 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4KUF89DMKN;
+					};
+					95302DA91C9FBB7C002B1C27 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4KUF89DMKN;
+						TestTargetID = 95302D951C9FBB7B002B1C27;
+					};
+					95302DB41C9FBB7C002B1C27 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4KUF89DMKN;
+						TestTargetID = 95302D951C9FBB7B002B1C27;
+					};
+				};
+			};
+			buildConfigurationList = 95302D911C9FBB7B002B1C27 /* Build configuration list for PBXProject "Tide Rise (NZ)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95302D8D1C9FBB7B002B1C27;
+			productRefGroup = 95302D971C9FBB7B002B1C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95302D951C9FBB7B002B1C27 /* Tide Rise (NZ) */,
+				95302DA91C9FBB7C002B1C27 /* Tide Rise (NZ)Tests */,
+				95302DB41C9FBB7C002B1C27 /* Tide Rise (NZ)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95302D941C9FBB7B002B1C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95302DA41C9FBB7C002B1C27 /* LaunchScreen.storyboard in Resources */,
+				95302DA11C9FBB7C002B1C27 /* Assets.xcassets in Resources */,
+				95302D9F1C9FBB7C002B1C27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95302DA81C9FBB7C002B1C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95302DB31C9FBB7C002B1C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95302D921C9FBB7B002B1C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95302D9C1C9FBB7C002B1C27 /* ViewController.swift in Sources */,
+				95302D9A1C9FBB7C002B1C27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95302DA61C9FBB7C002B1C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95302DAF1C9FBB7C002B1C27 /* Tide_Rise__NZ_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95302DB11C9FBB7C002B1C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95302DBA1C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95302DAC1C9FBB7C002B1C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95302D951C9FBB7B002B1C27 /* Tide Rise (NZ) */;
+			targetProxy = 95302DAB1C9FBB7C002B1C27 /* PBXContainerItemProxy */;
+		};
+		95302DB71C9FBB7C002B1C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95302D951C9FBB7B002B1C27 /* Tide Rise (NZ) */;
+			targetProxy = 95302DB61C9FBB7C002B1C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95302D9D1C9FBB7C002B1C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95302D9E1C9FBB7C002B1C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95302DA21C9FBB7C002B1C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95302DA31C9FBB7C002B1C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95302DBC1C9FBB7C002B1C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95302DBD1C9FBB7C002B1C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95302DBF1C9FBB7C002B1C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tide Rise (NZ)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95302DC01C9FBB7C002B1C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tide Rise (NZ)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95302DC21C9FBB7C002B1C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tide Rise (NZ)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tide Rise (NZ).app/Tide Rise (NZ)";
+			};
+			name = Debug;
+		};
+		95302DC31C9FBB7C002B1C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tide Rise (NZ)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tide Rise (NZ).app/Tide Rise (NZ)";
+			};
+			name = Release;
+		};
+		95302DC51C9FBB7C002B1C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tide Rise (NZ)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tide Rise (NZ)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		95302DC61C9FBB7C002B1C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tide Rise (NZ)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tide Rise (NZ)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95302D911C9FBB7B002B1C27 /* Build configuration list for PBXProject "Tide Rise (NZ)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95302DBC1C9FBB7C002B1C27 /* Debug */,
+				95302DBD1C9FBB7C002B1C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95302DBE1C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95302DBF1C9FBB7C002B1C27 /* Debug */,
+				95302DC01C9FBB7C002B1C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95302DC11C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95302DC21C9FBB7C002B1C27 /* Debug */,
+				95302DC31C9FBB7C002B1C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95302DC41C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95302DC51C9FBB7C002B1C27 /* Debug */,
+				95302DC61C9FBB7C002B1C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95302D8E1C9FBB7B002B1C27 /* Project object */;
+}
