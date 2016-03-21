@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		95302D9A1C9FBB7C002B1C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302D991C9FBB7C002B1C27 /* AppDelegate.swift */; };
-		95302D9C1C9FBB7C002B1C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302D9B1C9FBB7C002B1C27 /* ViewController.swift */; };
-		95302D9F1C9FBB7C002B1C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95302D9D1C9FBB7C002B1C27 /* Main.storyboard */; };
+		95302D9C1C9FBB7C002B1C27 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302D9B1C9FBB7C002B1C27 /* mapViewController.swift */; };
 		95302DA11C9FBB7C002B1C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95302DA01C9FBB7C002B1C27 /* Assets.xcassets */; };
-		95302DA41C9FBB7C002B1C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95302DA21C9FBB7C002B1C27 /* LaunchScreen.storyboard */; };
 		95302DAF1C9FBB7C002B1C27 /* Tide_Rise__NZ_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302DAE1C9FBB7C002B1C27 /* Tide_Rise__NZ_Tests.swift */; };
 		95302DBA1C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302DB91C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift */; };
+		95302DD11C9FF44E002B1C27 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95302DD01C9FF44E002B1C27 /* Launch Screen.storyboard */; };
+		9542512D1CA02F7A002BCE61 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542512C1CA02F7A002BCE61 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +36,8 @@
 /* Begin PBXFileReference section */
 		95302D961C9FBB7B002B1C27 /* Tide Rise (NZ).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tide Rise (NZ).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95302D991C9FBB7C002B1C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95302D9B1C9FBB7C002B1C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		95302D9E1C9FBB7C002B1C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95302D9B1C9FBB7C002B1C27 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		95302DA01C9FBB7C002B1C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		95302DA31C9FBB7C002B1C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95302DA51C9FBB7C002B1C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95302DAA1C9FBB7C002B1C27 /* Tide Rise (NZ)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tide Rise (NZ)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95302DAE1C9FBB7C002B1C27 /* Tide_Rise__NZ_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tide_Rise__NZ_Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		95302DB51C9FBB7C002B1C27 /* Tide Rise (NZ)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tide Rise (NZ)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95302DB91C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tide_Rise__NZ_UITests.swift; sourceTree = "<group>"; };
 		95302DBB1C9FBB7C002B1C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95302DD01C9FF44E002B1C27 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9542512C1CA02F7A002BCE61 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +97,12 @@
 		95302D981C9FBB7C002B1C27 /* Tide Rise (NZ) */ = {
 			isa = PBXGroup;
 			children = (
+				95302DD01C9FF44E002B1C27 /* Launch Screen.storyboard */,
 				95302D991C9FBB7C002B1C27 /* AppDelegate.swift */,
-				95302D9B1C9FBB7C002B1C27 /* ViewController.swift */,
-				95302D9D1C9FBB7C002B1C27 /* Main.storyboard */,
+				95302D9B1C9FBB7C002B1C27 /* mapViewController.swift */,
 				95302DA01C9FBB7C002B1C27 /* Assets.xcassets */,
-				95302DA21C9FBB7C002B1C27 /* LaunchScreen.storyboard */,
 				95302DA51C9FBB7C002B1C27 /* Info.plist */,
+				9542512C1CA02F7A002BCE61 /* detailViewController.swift */,
 			);
 			path = "Tide Rise (NZ)";
 			sourceTree = "<group>";
@@ -194,6 +194,11 @@
 					95302D951C9FBB7B002B1C27 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 4KUF89DMKN;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					95302DA91C9FBB7C002B1C27 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -208,7 +213,7 @@
 				};
 			};
 			buildConfigurationList = 95302D911C9FBB7B002B1C27 /* Build configuration list for PBXProject "Tide Rise (NZ)" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,9 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95302DA41C9FBB7C002B1C27 /* LaunchScreen.storyboard in Resources */,
+				95302DD11C9FF44E002B1C27 /* Launch Screen.storyboard in Resources */,
 				95302DA11C9FBB7C002B1C27 /* Assets.xcassets in Resources */,
-				95302D9F1C9FBB7C002B1C27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95302D9C1C9FBB7C002B1C27 /* ViewController.swift in Sources */,
+				95302D9C1C9FBB7C002B1C27 /* mapViewController.swift in Sources */,
 				95302D9A1C9FBB7C002B1C27 /* AppDelegate.swift in Sources */,
+				9542512D1CA02F7A002BCE61 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +299,6 @@
 			targetProxy = 95302DB61C9FBB7C002B1C27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		95302D9D1C9FBB7C002B1C27 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95302D9E1C9FBB7C002B1C27 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		95302DA21C9FBB7C002B1C27 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95302DA31C9FBB7C002B1C27 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		95302DBC1C9FBB7C002B1C27 /* Debug */ = {
@@ -402,10 +388,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Tide Rise (NZ)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -413,10 +402,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Tide Rise (NZ)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -487,6 +478,7 @@
 				95302DC01C9FBB7C002B1C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95302DC11C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +487,7 @@
 				95302DC31C9FBB7C002B1C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95302DC41C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +496,7 @@
 				95302DC61C9FBB7C002B1C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
