@@ -40,7 +40,7 @@ class mapViewController: UIViewController, MKMapViewDelegate {
         
         locations += [(MapPin(coordinate: CLLocationCoordinate2D(latitude: -36.8626926, longitude: 174.5845932), title: "Auckland"))]
         
-        locations += [(MapPin(coordinate: CLLocationCoordinate2D(latitude: -37.8626926, longitude: 174.5845932), title: "Wellington"))]
+        locations += [(MapPin(coordinate: CLLocationCoordinate2D(latitude: -37.8626926, longitude: 174.5845932), title: "Some Where"))]
         
         self.viewMap.addAnnotations(locations)
         self.viewMap.delegate = self
@@ -76,7 +76,8 @@ class mapViewController: UIViewController, MKMapViewDelegate {
         popupDetailWindow.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
         //self.presentViewController(popupDetailWindow, animated: true, completion: nil)
         userDefaults.setObject((view.annotation?.title!!)!, forKey: "selectedBeach")
-        self.navigationController?.pushViewController(popupDetailWindow, animated: true)
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        self.navigationController?.pushViewController(popupDetailWindow, animated: false)
     }
     
 

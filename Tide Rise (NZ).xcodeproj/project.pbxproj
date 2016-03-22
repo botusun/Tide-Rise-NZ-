@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FD9DE979008E6F938B819F8 /* Pods_Tide_Rise__NZ_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5067C9A335282676BF800B /* Pods_Tide_Rise__NZ_.framework */; };
 		95302D9A1C9FBB7C002B1C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302D991C9FBB7C002B1C27 /* AppDelegate.swift */; };
 		95302D9C1C9FBB7C002B1C27 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302D9B1C9FBB7C002B1C27 /* mapViewController.swift */; };
 		95302DA11C9FBB7C002B1C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95302DA01C9FBB7C002B1C27 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		95302DBA1C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95302DB91C9FBB7C002B1C27 /* Tide_Rise__NZ_UITests.swift */; };
 		95302DD11C9FF44E002B1C27 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95302DD01C9FF44E002B1C27 /* Launch Screen.storyboard */; };
 		9542512D1CA02F7A002BCE61 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542512C1CA02F7A002BCE61 /* detailViewController.swift */; };
+		954EC1571CA1089E005CE501 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954EC1561CA1089E005CE501 /* Charts.framework */; };
+		954EC15E1CA1259D005CE501 /* seaTide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954EC15D1CA1259D005CE501 /* seaTide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AC5A0F5B42910DAF3383F4B /* Pods-Tide Rise (NZ).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tide Rise (NZ).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tide Rise (NZ)/Pods-Tide Rise (NZ).debug.xcconfig"; sourceTree = "<group>"; };
 		95302D961C9FBB7B002B1C27 /* Tide Rise (NZ).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tide Rise (NZ).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95302D991C9FBB7C002B1C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95302D9B1C9FBB7C002B1C27 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		95302DBB1C9FBB7C002B1C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95302DD01C9FF44E002B1C27 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9542512C1CA02F7A002BCE61 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		954EC1561CA1089E005CE501 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "Pods/../build/Debug-iphoneos/Charts.framework"; sourceTree = "<group>"; };
+		954EC15D1CA1259D005CE501 /* seaTide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seaTide.swift; sourceTree = "<group>"; };
+		DABF641C6B560F7909E84C69 /* Pods-Tide Rise (NZ).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tide Rise (NZ).release.xcconfig"; path = "Pods/Target Support Files/Pods-Tide Rise (NZ)/Pods-Tide Rise (NZ).release.xcconfig"; sourceTree = "<group>"; };
+		FF5067C9A335282676BF800B /* Pods_Tide_Rise__NZ_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tide_Rise__NZ_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				954EC1571CA1089E005CE501 /* Charts.framework in Frameworks */,
+				5FD9DE979008E6F938B819F8 /* Pods_Tide_Rise__NZ_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		881AF1885E3BECBB7E7D3BC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC5A0F5B42910DAF3383F4B /* Pods-Tide Rise (NZ).debug.xcconfig */,
+				DABF641C6B560F7909E84C69 /* Pods-Tide Rise (NZ).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		95302D8D1C9FBB7B002B1C27 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +100,8 @@
 				95302DAD1C9FBB7C002B1C27 /* Tide Rise (NZ)Tests */,
 				95302DB81C9FBB7C002B1C27 /* Tide Rise (NZ)UITests */,
 				95302D971C9FBB7B002B1C27 /* Products */,
+				881AF1885E3BECBB7E7D3BC0 /* Pods */,
+				ADADD661EAA824364B70FE4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +118,7 @@
 		95302D981C9FBB7C002B1C27 /* Tide Rise (NZ) */ = {
 			isa = PBXGroup;
 			children = (
+				954EC15D1CA1259D005CE501 /* seaTide.swift */,
 				95302DD01C9FF44E002B1C27 /* Launch Screen.storyboard */,
 				95302D991C9FBB7C002B1C27 /* AppDelegate.swift */,
 				95302D9B1C9FBB7C002B1C27 /* mapViewController.swift */,
@@ -125,6 +147,15 @@
 			path = "Tide Rise (NZ)UITests";
 			sourceTree = "<group>";
 		};
+		ADADD661EAA824364B70FE4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				954EC1561CA1089E005CE501 /* Charts.framework */,
+				FF5067C9A335282676BF800B /* Pods_Tide_Rise__NZ_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95302DBE1C9FBB7C002B1C27 /* Build configuration list for PBXNativeTarget "Tide Rise (NZ)" */;
 			buildPhases = (
+				55AA0562194A0FBC79E4A852 /* Check Pods Manifest.lock */,
 				95302D921C9FBB7B002B1C27 /* Sources */,
 				95302D931C9FBB7B002B1C27 /* Frameworks */,
 				95302D941C9FBB7B002B1C27 /* Resources */,
+				1D6BC03B890497F65104EC56 /* Embed Pods Frameworks */,
+				12C5A342CC5CD745070CA543 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +292,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12C5A342CC5CD745070CA543 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tide Rise (NZ)/Pods-Tide Rise (NZ)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D6BC03B890497F65104EC56 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tide Rise (NZ)/Pods-Tide Rise (NZ)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55AA0562194A0FBC79E4A852 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95302D921C9FBB7B002B1C27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -266,6 +348,7 @@
 				95302D9C1C9FBB7C002B1C27 /* mapViewController.swift in Sources */,
 				95302D9A1C9FBB7C002B1C27 /* AppDelegate.swift in Sources */,
 				9542512D1CA02F7A002BCE61 /* detailViewController.swift in Sources */,
+				954EC15E1CA1259D005CE501 /* seaTide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,9 +469,14 @@
 		};
 		95302DBF1C9FBB7C002B1C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC5A0F5B42910DAF3383F4B /* Pods-Tide Rise (NZ).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Tide Rise (NZ)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-";
@@ -400,9 +488,14 @@
 		};
 		95302DC01C9FBB7C002B1C27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DABF641C6B560F7909E84C69 /* Pods-Tide Rise (NZ).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Tide Rise (NZ)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botusun.Tide-Rise--NZ-";

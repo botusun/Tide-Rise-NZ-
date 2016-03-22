@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let naviController = UINavigationController(rootViewController: mapViewController())
         self.window!.rootViewController = naviController
         naviController.navigationBar.topItem?.title = "Tide Rise (NZ)"
+        naviController.setNavigationBarHidden(true, animated: false)
+        print(self.window!.frame.size.height)
+        print(self.window!.frame.size.width)
         self.window!.makeKeyAndVisible()
         return true
     }
